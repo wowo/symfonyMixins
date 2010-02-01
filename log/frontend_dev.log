@@ -1,0 +1,28 @@
+Feb 01 22:21:58 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 01 22:21:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 01 22:21:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 01 22:21:58 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Feb 01 22:21:58 symfony [info] {sfPHPView} Render "/home/wowo/localhost/mixins/apps/frontend/modules/default/templates/indexSuccess.php"
+Feb 01 22:21:58 symfony [info] {sfPHPView} Decorate content with "/home/wowo/localhost/mixins/apps/frontend/templates/layout.php"
+Feb 01 22:21:58 symfony [info] {sfPHPView} Render "/home/wowo/localhost/mixins/apps/frontend/templates/layout.php"
+Feb 01 22:21:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 01 22:21:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 01 22:21:58 symfony [info] {sfWebDebugLogger} Configuration 239.72 ms (9)
+Feb 01 22:21:58 symfony [info] {sfWebDebugLogger} Factories 273.78 ms (1)
+Feb 01 22:21:58 symfony [info] {sfWebDebugLogger} Action "default/index" 0.90 ms (1)
+Feb 01 22:21:58 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 20.80 ms (1)
+Feb 01 22:21:58 symfony [info] {sfWebResponse} Send content (42269 o)
+Feb 01 22:22:51 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 01 22:22:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 01 22:22:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 01 22:22:51 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Feb 01 22:22:51 symfony [info] {sfPHPView} Render "/home/wowo/localhost/mixins/apps/frontend/modules/default/templates/indexSuccess.php"
+Feb 01 22:22:51 symfony [info] {sfPHPView} Decorate content with "/home/wowo/localhost/mixins/apps/frontend/templates/layout.php"
+Feb 01 22:22:51 symfony [info] {sfPHPView} Render "/home/wowo/localhost/mixins/apps/frontend/templates/layout.php"
+Feb 01 22:22:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 01 22:22:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 01 22:22:51 symfony [info] {sfWebDebugLogger} Configuration 2.53 ms (9)
+Feb 01 22:22:51 symfony [info] {sfWebDebugLogger} Factories 31.02 ms (1)
+Feb 01 22:22:51 symfony [info] {sfWebDebugLogger} Action "default/index" 0.84 ms (1)
+Feb 01 22:22:51 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 15.08 ms (1)
+Feb 01 22:22:52 symfony [info] {sfWebResponse} Send content (42350 o)
