@@ -3,10 +3,9 @@
 /**
  * default actions.
  *
- * @package    mixins
- * @subpackage default
- * @author     Your name here
- * @version    SVN: $Id: actions.class.php 23810 2009-11-12 11:07:44Z Kris.Wallsmith $
+ * @package default
+ * @author Wojciech Sznapka <wojciech@sznapka.pl> 
+ * @license GPL
  */
 class defaultActions extends sfActions
 {
@@ -17,6 +16,8 @@ class defaultActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-
+    $year = $request->getParameter('year', date('Y'));
+    $this->day   = $this->getCurrentDay($year);
+    $this->month = $this->getCurrentMonth($year);
   }
 }
