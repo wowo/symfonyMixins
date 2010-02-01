@@ -19,7 +19,7 @@ class myMixins
   private $actionInstance = NULL;
 
   /**
-   * simple listener, it checks wheter method from method_not_found event exists in this class
+   * simple listener, it checks whether method from method_not_found event exists in this class
    * 
    * @param sfEvent $event 
    * @access public
@@ -65,7 +65,4 @@ class myMixins
   {
     return strftime('%B', strtotime($year . date('-m-d')));
   }
-
-
- 
 }
